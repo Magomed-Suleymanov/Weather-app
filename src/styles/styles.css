@@ -1,0 +1,167 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  color: white;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #2db0e0;
+  background: -moz-linear-gradient(45deg, #2db0e0 0%, #6028a8 100%);
+  background: -webkit-gradient(
+    left bottom,
+    right top,
+    color-stop(0%, #2db0e0),
+    color-stop(100%, #6028a8)
+  );
+  background: -webkit-linear-gradient(45deg, #2db0e0 0%, #6028a8 100%);
+  background: -o-linear-gradient(45deg, #2db0e0 0%, #6028a8 100%);
+  background: -ms-linear-gradient(45deg, #2db0e0 0%, #6028a8 100%);
+  background: linear-gradient(45deg, #2db0e0 0%, #6028a8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#2db0e0", endColorstr="#6028a8", GradientType=1 );
+}
+.app .wrapper {
+  position: relative;
+  display: flex;
+  height: 55vh;
+  justify-content: space-between;
+  background: #2a6bb1;
+  box-shadow: 0px 2px 80px -20px rgba(0, 0, 0, 0.5);
+  width: 60%;
+  margin: 0 auto;
+}
+@media (max-width: 767px) {
+  .app .wrapper {
+    display: block;
+    text-align: center;
+  }
+}
+.app .wrapper .info {
+  width: 50%;
+  height: 55vh;
+  background: url('../img/weather.jpg') center center no-repeat;
+  background-blend-mode: multiply;
+  background-color: #ececec;
+  border: 2px solid #1f1f1f;
+  border-right: 2px solid #131e29;
+  background-size: cover;
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+@media (max-width: 767px) {
+  .app .wrapper .info {
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+  }
+}
+.app .wrapper .wrapWeather {
+  width: 50%;
+  color: black;
+  margin: auto;
+}
+.app .wrapper .wrapWeather .wrapperText {
+  width: 90%;
+  margin: auto;
+  text-align: left;
+  font-size: 18px;
+}
+.app .wrapper .wrapWeather form {
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .app .wrapper .wrapWeather form {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+}
+.app .wrapper .wrapWeather input[type='text'] {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 2px #113a65;
+  width: 50%;
+  padding-bottom: 4px;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 20px;
+  outline: none;
+  margin-right: 10px;
+}
+@media (max-width: 1225px) {
+  .app .wrapper .wrapWeather input[type='text'] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .app .wrapper .wrapWeather input[type='text'] {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
+.app .wrapper .wrapWeather input::-webkit-input-placeholder {
+  color: white;
+}
+.app .wrapper .wrapWeather button {
+  border: 2px solid #103a65;
+  border-bottom: 4px solid #103a65;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: #235d9c;
+  color: #fff;
+  outline: none !important;
+}
+.app .wrapper .wrapWeather button:hover {
+  border-bottom: 2px solid #103a65;
+  position: relative;
+  top: 2px;
+}
+.app .wrapper .wrapWeather button:active {
+  border-bottom: 2px solid transparent;
+  border-color: transparent;
+  position: relative;
+  top: 2px;
+}
+@media (max-width: 1225px) {
+  .app .wrapper .wrapWeather button {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .app .wrapper .wrapWeather button {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .app .wrapper .wrapWeather {
+    padding: 10px 0;
+    margin: auto;
+    display: block;
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+    border: 2px solid #1f1f1f;
+    border-right: 2px solid #131e29;
+    border-top: none;
+  }
+}
+
+.error {
+  color: #e30909;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=styles.css.map */
