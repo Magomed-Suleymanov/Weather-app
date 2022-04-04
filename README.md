@@ -23,8 +23,3 @@
 - SASS
 - Prettier
 
-### Проект можно посмотреть:
-- [Код](https://github.com/Magomed-Suleymanov/Weather-app) 
-- [Demo](https://radiant-river-35638.herokuapp.com/)
-
-
